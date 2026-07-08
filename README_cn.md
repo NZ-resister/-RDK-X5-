@@ -102,25 +102,7 @@ RF-DETR/rf_detr_nano.onnx
 
 DeepSeek API 的配置说明和最小测试脚本。详细内容见 `DeepSeek_API/readme.md`。
 
-## GitHub 发布前检查
-
-建议公开发布前补齐或处理：
-
-- 删除 `__pycache__/`、`audio_cache/`、`user_audio/` 等生成文件。
-- 不提交 `.env` 和任何真实 API Key。
-- 大模型文件如 `.onnx`、`.bin` 体积较大，建议使用 Git LFS 或提供下载链接。
-- 增加 `LICENSE` 文件，明确开源协议。
-- 增加界面截图、演示视频或运行效果图。
-- 说明测试过的开发板型号、系统版本、Python 版本和外设要求。
-- 如果依赖专用硬件或 BPU 工具链，需要补充安装和部署步骤。
-
-## 当前注意事项
-
-- 在线 TTS 和 DeepSeek API 受网络影响，建议比赛或演示前预热缓存。
-- 发音评分受麦克风、环境噪声和 ASR 结果影响，现场测试时建议保持麦克风距离稳定。
-- `Whisper/recognizer.py` 中的百度语音参数已改为环境变量读取，发布时不要恢复硬编码密钥。
-
 ## 许可证
 
-当前项目尚未声明开源许可证。正式发布到 GitHub 前建议添加 `LICENSE` 文件。
+本项目采用Apache License 2.0开源协议。
 
