@@ -1,0 +1,22 @@
+# Whisper/requirements.txt
+# Dependencies for Whisper-based pronunciation scoring
+
+# Core
+openai-whisper>=20231117
+librosa>=0.10.0
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# CPU-only (smaller, no GPU needed):
+#   pip install -r Whisper/requirements.txt
+#
+# GPU acceleration (if CUDA available, significantly faster):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+#   pip install openai-whisper
+#
+# Model size guide (default: base):
+#   tiny   ~ 39 MB  — fastest, lower accuracy
+#   base   ~ 74 MB  — good balance (recommended)
+#   small  ~ 244 MB — better accuracy, slower
+#   medium ~ 769 MB — high accuracy, requires more RAM
+#   large  ~ 1550 MB— best accuracy, requires GPU
