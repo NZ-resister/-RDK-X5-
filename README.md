@@ -1,6 +1,6 @@
-# LXNND Multimodal Language Learning Assistant
+# Independent and Experiential Language Learner
 
-LXNND is a multimodal language-learning assistant designed for an embedded AI competition project. It combines camera-based object recognition, multilingual word display, Edge TTS pronunciation demonstration, microphone recording, pronunciation scoring, waveform replay, and DeepSeek-powered example/advice generation.
+Independent and Experiential Language Learner is a multimodal language-learning assistant designed for an embedded AI competition project. It combines camera-based object recognition, multilingual word display, Edge TTS pronunciation demonstration, microphone recording, pronunciation scoring, waveform replay, and DeepSeek-powered example/advice generation.
 
 ## Features
 
