@@ -91,18 +91,7 @@ RF-DETR/rf_detr_nano.onnx
 - Edge TTS audio files are cached under `audio_cache/`.
 - User recordings are stored under `user_audio/`.
 
-## GitHub Release Checklist
-
-Before publishing publicly:
-
-- Remove generated caches such as `__pycache__/`, `audio_cache/`, and `user_audio/`.
-- Do not commit `.env` or any real API keys.
-- Consider Git LFS for large model files such as `.onnx` and `.bin`.
-- Add a license file if this project will be open-source.
-- Add screenshots or a short demo video.
-- Document tested hardware, OS, Python version, and board model.
-
 ## License
 
-No license has been declared yet. Add a `LICENSE` file before public release.
+This project is licensed under the Apache License 2.0.
 
